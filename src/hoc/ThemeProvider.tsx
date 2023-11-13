@@ -5,16 +5,16 @@ type ContextType = {
 
 }
 const Context = createContext<ContextType | undefined>(undefined)
-const ContextProvider = ({children}: PropsWithChildren<{}>) => {
-    const movie = useState(null);
+const ThemeProvider = ({children}: PropsWithChildren<{}>) => {
+    const show = useState(true);
     return (
-       <Context.Provider value={movie}>
+       <Context.Provider value={show}>
            {children}
        </Context.Provider>
     );
 };
 
 export {
-    ContextProvider,
+    ThemeProvider,
     Context
 }

@@ -1,4 +1,14 @@
 .genreWrapper {
-    width: 10%;
-    text-align: center;
+    min-width: 10%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+    background-color: #3a3838;
+}
+
+.genreWrapper:hover {
+    text-decoration: underline;
 }
