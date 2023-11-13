@@ -1,0 +1,13 @@
+.castWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.actorWrapper {
+    max-width: 100px;
+}
+
+.actorWrapper img {
+    width: 100%;
+}
