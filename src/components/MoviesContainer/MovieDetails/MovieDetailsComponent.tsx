@@ -1,10 +1,10 @@
 import {FC} from "react";
+import {Rating} from "@mui/material";
 
 import {IMovieDetails} from "../../../interfaces/movieDetailsInterface";
 import css from './MovieDetails.module.css'
 import {GenreComponent} from "./genres/GenreComponent";
 import {CastComponent} from "./cast/CastComponent";
-import {Rating} from "@mui/material";
 
 interface IProps {
     movie: IMovieDetails

@@ -1,8 +1,8 @@
 import {FC} from "react";
-import {IGenre} from "../../../../interfaces/genreInterface";
-
-import css from './GenreComponent.module.css'
 import {useNavigate} from "react-router-dom";
+
+import {IGenre} from "../../../../interfaces/genreInterface";
+import css from './GenreComponent.module.css'
 
 interface IProps {
     genre: IGenre

@@ -1,11 +1,10 @@
 import {FC, useEffect, useState} from "react";
+import {useLocation} from "react-router-dom";
 
 import {movieService} from "../../../services/movieService";
 import {MovieComponent} from "../Movie/MovieComponent";
 import {IMovie} from "../../../interfaces/movieInterface";
-
 import css from './Movies.module.css';
-import {useLocation} from "react-router-dom";
 import {Header} from "../../header/Header";
 
 interface IProps {

@@ -1,4 +1,5 @@
 import {FC, useEffect, useState} from "react";
+
 import {IActor} from "../../../../interfaces/actorInterface";
 import {movieService} from "../../../../services/movieService";
 import {ActorComponent} from "./ActorComponent";
